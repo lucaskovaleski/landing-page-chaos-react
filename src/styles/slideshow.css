@@ -1,0 +1,95 @@
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slideshow {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+    
+  }
+  
+  #slideshow_div{
+    background: #000;
+  }
+  
+  .slide-item {
+    flex: 1 0 33.33vw; /* Ajuste para exibir 3 imagens por vez */
+    height: auto; /* Ajuste para permitir a exibição completa da imagem */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .slide {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .slide-info {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .piece-name, .piece-price {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .botao_slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .botao_slide:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .botao_slide:first-of-type {
+    left: 10px;
+  }
+  
+  .botao_slide:last-of-type {
+    right: 10px;
+  }
+  
+  .slide-info {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .slideshow_title {
+    color: #dfdfdf;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .slide-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #dfdfdf;
+  }
+  
+  .slide-info p:nth-child(2) {
+    font-weight: bold;
+    color: #dfdfdf;
+  }
+  
+  
+  

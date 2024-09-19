@@ -1,0 +1,56 @@
+.btn-primary {
+    width: 100%;
+    background: var(--primary-color);
+    color: var(--light-text-color);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-sm);
+    padding-block: 0.825rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: solid transparent 0.15rem;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-tertiary {
+    width: 100%;
+    background: var(--primary-color); /* Defina a cor terciária aqui */
+    color: var(--light-text-color); /* Cor do texto para contraste */
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-sm);
+    padding-block: 0.825rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: solid transparent 0.15rem;
+}
+
+.btn-tertiary:hover {
+    background: transparent;
+    color: var(--secong-color); /* Cor do texto ao passar o mouse */
+    border-color: var(--primary-color); /* Cor da borda ao passar o mouse */
+}
+
+.btn-secondary {
+    width: 100%;
+    background: transparent;
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-sm);
+    padding-block: 0.825rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: solid var(--primary-color) 0.15rem;
+}
+
+.btn-secondary:hover {
+    background: var(--primary-color);
+    color: var(--light-text-color);
+    border-color: transparent;
+}
